@@ -1,0 +1,14 @@
+.main {
+    min-height: calc(100vh - 65px);
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisorContainer {
+    height: 162px;
+    width: 100%;
+    background: rgb(223, 185, 116);
+}

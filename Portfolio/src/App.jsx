@@ -1,11 +1,18 @@
 
-import './App.css'
+import style from './App.module.css';
+import Main from './components/Main';
+import Header from './layout/Header';
 
 function App() {
 
   return (
     <>
-      <>App</>
+      <Header/>
+      <main className={style.main}>
+        <Main/>
+      </main>
+      <div className={style.divisorContainer}></div>
+      <p>App</p>
     </>
   )
 }
