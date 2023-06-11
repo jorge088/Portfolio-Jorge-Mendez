@@ -24,6 +24,16 @@
     gap: 3em;
 }
 
+.projects {
+    width: 100%;
+    padding: 3em 0;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width:575px) {
     .aboutMe {
         gap: .8em;

@@ -102,62 +102,77 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+
 @media only screen and (max-width:575px) {
     .aboutMeContainer {
         font-size: .9rem;
         width: 90%;
     }
+
     .aboutMeContainer p {
         width: 100%;
     }
+
     .experienceContainer {
         font-size: .9rem;
         width: 90%;
     }
+
     .experienceContainer p {
         width: 100%;
     }
+
     .tecnologiesContainer {
         font-size: .9rem;
         width: 90%;
 
     }
 }
+
 @media only screen and (min-width:576px) and (max-width:800px) {
     .aboutMeContainer {
         font-size: .9rem;
         width: 90%;
     }
+
     .aboutMeContainer p {
         width: 100%;
     }
+
     .experienceContainer {
         font-size: .9rem;
         width: 90%;
     }
+
     .experienceContainer p {
         width: 100%;
     }
+
     .tecnologiesContainer {
         font-size: .9rem;
         width: 90%;
     }
 }
+
 @media only screen and (min-width:800px) and (max-width:1100px) {
     .aboutMeContainer {
         font-size: .9rem;
         width: 85%;
     }
+
     .aboutMeContainer p {
         width: 65%;
     }
+
     .experienceContainer {
         font-size: .9rem;
         width: 85%;
     }
+
     .experienceContainer p {
         width: 65%;
     }
+
     .tecnologiesContainer {
         font-size: .9rem;
         width: 90%;
