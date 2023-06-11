@@ -1,0 +1,168 @@
+.contactContainer {
+    width: 990px;
+    padding: .4em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1rem;
+}
+
+.contactContainer h3 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #374151;
+}
+
+.formContact {
+    padding: .6em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+}
+
+.formContact h4 {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #374151;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.formInputs {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1em;
+}
+
+.formInput {
+    width: 98%;
+    height: 42px;
+    outline: 1px solid #E08F15;
+    border: none;
+    background: none;
+    padding-left: 1em;
+    color: #374151;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formInput:focus {
+    outline: 2px solid #E08F15;
+
+}
+
+.formInput.invalidInput:focus {
+    outline: 2px solid #ff3232;
+}
+
+.textarea {
+    width: 98%;
+    height: 200px;
+    outline: 1px solid #E08F15;
+    border: none;
+    background: none;
+    padding: .6em 0;
+    padding-left: 1em;
+    color: #374151;
+    font-size: 1em;
+    border-radius: 4px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textarea:focus {
+    outline: 2px solid #E08F15;
+}
+
+.textarea.invalidInput:focus {
+    outline: 2px solid #ff3232;
+}
+
+.btnSubmit {
+    border: 1px solid #E08F15;
+    border-radius: 4px;
+    background: none;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #E08F15;
+    padding: .6em 0;
+    transition: ease all .3s;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background: #E08F15;
+    color: #FFF;
+}
+
+.errorMessage {
+    color: #ff3232;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-weight: 500;
+    font-size: .9em;
+    bottom: -22px;
+}
+
+.invalidInput {
+    outline: 2px solid #ff3232;
+
+}
+
+@media only screen and (max-width:575px) {
+    .contactContainer {
+        width: 90%;
+        font-size: .9rem;
+    }
+
+    .formInputs {
+        width: 100%;
+        gap: 1.8em;
+    }
+
+    .formInput {
+        width: 96%;
+    }
+
+    .textarea {
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:900px) {
+    .contactContainer {
+        width: 90%;
+        font-size: .9rem;
+    }
+
+    .formInputs {
+        width: 100%;
+        gap: 1.8em;
+    }
+
+    .formInput {
+        width: 97.5%;
+    }
+
+    .textarea {
+        width: 97.5%;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1100px) {
+    .contactContainer {
+        width: 850px;
+    }
+
+    .formInputs {
+        width: 550px;
+    }
+}
