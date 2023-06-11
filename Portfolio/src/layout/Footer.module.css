@@ -1,0 +1,41 @@
+.footer {
+    min-height: 120px;
+    width: 100%;
+    background: #f78d23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .2em;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+.footerContain p {
+    font-size: 1.1em;
+}
+
+.socialContainer {
+    display: flex;
+    gap: 1em;
+}
+
+.socialContainer {
+    font-size: 2em;
+}
+
+.socialContainer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.socialContainer a:hover {
+    filter: drop-shadow(1px 1px 4px #dad6d6);
+}

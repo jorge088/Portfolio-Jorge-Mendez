@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Main from './components/Main';
 import Projects from './components/Projects';
+import Footer from './layout/Footer';
 import Header from './layout/Header';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <section id='Contact' className={style.contact}>
         <Contact />
       </section>
+      <Footer />
     </>
   )
 }
