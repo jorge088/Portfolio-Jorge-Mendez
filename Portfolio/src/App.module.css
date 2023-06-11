@@ -12,3 +12,33 @@
     width: 100%;
     background: rgb(223, 185, 116);
 }
+
+.aboutMe {
+    width: 100%;
+    padding: 3em 0;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+@media only screen and (max-width:575px) {
+    .aboutMe {
+        gap: .8em;
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:800px) {
+    .aboutMe {
+        gap: 1em;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1100px) {
+    .aboutMe {
+        gap: 2em;
+    }
+}

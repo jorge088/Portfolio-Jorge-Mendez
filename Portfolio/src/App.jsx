@@ -1,5 +1,6 @@
 
 import style from './App.module.css';
+import AboutMe from './components/AboutMe';
 import Main from './components/Main';
 import Header from './layout/Header';
 
@@ -7,12 +8,15 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header />
       <main className={style.main}>
-        <Main/>
+        <Main />
       </main>
       <div className={style.divisorContainer}></div>
-      <p>App</p>
+      <section id='AboutMe' className={style.aboutMe}>
+        <AboutMe />
+
+      </section>
     </>
   )
 }
