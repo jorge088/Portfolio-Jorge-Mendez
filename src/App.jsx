@@ -20,7 +20,7 @@ function App() {
 
       <div className={style.divisorContainer}>
         <div className={style.divisorBlockTop}></div>
-        <img className={style.topSVG} src={topsvg} />
+        <img className={style.topSVG} src={topsvg} alt='Page divisor svg' />
       </div>
 
       <section id='aboutMe' className={style.aboutMe}>
@@ -28,7 +28,7 @@ function App() {
       </section>
 
       <div className={style.divisorContainer}>
-        <img className={style.bottomSVG} src={bottomsvg} />
+        <img className={style.bottomSVG} src={bottomsvg} alt='Page divisor svg'/>
         <div className={style.divisorBlockBottom}></div>
       </div>
 

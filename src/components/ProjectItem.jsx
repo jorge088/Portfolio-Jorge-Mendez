@@ -8,7 +8,7 @@ const ProjectItem = ({ project }) => {
     return (
         <div className={style.projectItem}>
             <div className={style.projectImgContainer}>
-                <img src={project.img} className={style.projectImg}></img>
+                <img src={project.img} className={style.projectImg} alt={project.name + ' screenshot'}></img>
             </div>
             <div className={style.projectDescription}>
                 <h4>{project.name}</h4>

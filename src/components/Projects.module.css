@@ -38,17 +38,14 @@
 
 .projectImgContainer {
     width: 100%;
-    height: 240px;
+    height: 280px;
     padding: .9em 0;
-    /* padding-bottom: .9em; */
-
     background-color: #f7f7f7;
 }
 
 .projectImg {
     width: 100%;
     height: 100%;
-    background-color: yellow;
 }
 
 .projectDescription {
@@ -131,7 +128,7 @@
     }
 
     .projectImgContainer {
-        height: 170px;
+        height: 200px;
     }
 }
 
@@ -179,6 +176,6 @@
     }
 
     .projectImgContainer {
-        height: 215px;
+        height: 240px;
     }
 }

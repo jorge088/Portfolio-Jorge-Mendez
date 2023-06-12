@@ -17,17 +17,18 @@ const AboutMe = () => {
         <>
             <div className={style.aboutMeContainer}>
                 <h3>SOBRE MI</h3>
-                <p>Soy Analista Programador Universitario y actualmente estoy estudiando Ingeniería en Computación. Me gusta el desarrollo web, y es por esto, que decidí orientar mis estudios por el desarrollo Front-End.</p>
-                <p>Me considero una persona entusiasta por encarar nuevos proyectos y en adquirir conocimientos que me permitan mejorar en mi desempeño dia a dia. Me gusta aprender sobre otros y compartir mis conocimientos.</p>
-                <p>Inicie mi camino en el desarrollo web en la universidad, realizando pequeños proyectos junto a mis compañeros. Luego decidí continuar mis estudios de forma autodidacta con libros, guias y cursos en linea.</p>
+                <p>Soy graduado de la carrera Analista Programador Universitario y desarrollador web Front End. Vivo en Argentina y tengo un gran interés por la tecnología y el desarrollo. Me encuentro en el camino de fortalecer mis habilidades en el desarrollo de sitios web con React, realizando practicas y aprendiendo metodologías y técnicas que me permitan mejorar en el desarrollo de código. </p>
+                <p>Me considero una persona entusiasta por encarar nuevos proyectos y en adquirir conocimientos que me ayuden a mejorar en mi desarrollo profesional y personal.</p>
+                <p>Inicie mi camino en la programación en la universidad, en donde aprendí y realicé practicas con distintos lenguajes de programación (C++, java, js, c#, etc) y estudié técnicas y tecnologías para desarrollar un proyecto de forma óptima. Continué mis estudios de desarrollo web en cursos online y de forma autodidacta.</p>
             </div>
             <div className={style.experienceContainer}>
                 <h3>EXPERIENCIA</h3>
-                <p>Tutor en cursos de Javascript en Coderhouse. En donde, doy respuestas a las dudas y consultas de los alumnos durante las clases en linea. Además, me encargo de corregir y brindar feedback a sus entregas de proyectos.</p>
-                <p>También cuento con proyectos que realicé como parte de trabajos finales en cursos y otros como proyectos personales para solucionar ciertas necesidades mias ó de conocidos.</p>
+                <p>Tutor en los cursos online de Javascript en Coderhouse. Mis tareas en este cargo son: Responder a las consultas de los estudiantes durante las clases en vivo y durante el curso. Realizar la corrección de las entregas de proyecto de los estudiantes, brindando un feedback constructivo con sugerencias y observaciones a mejorar en el código.</p>
+                <p>Cuento con proyectos de sitios web, que realicé: Algunos como parte de cursos en donde participé y otros como proyectos personales, que realicé para solucionar necesidades propias o de amigos/familiares. </p>
+                <p>También, he participado en proyectos de desarrollo grupales. Aplicando la metodología SCRUM con sprints semanales y reuniones de avances del proyecto.</p>
             </div>
             <div className={style.tecnologiesContainer}>
-                <h3>TECNOLOGIAS</h3>
+                <h3>TECNOLOGÍAS</h3>
                 <div className={style.tecnologiesItemsContainer}>
                     {tecnologiesItems}
                 </div>

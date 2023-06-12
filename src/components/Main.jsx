@@ -14,7 +14,7 @@ const Main = () => {
                 </div>
             </div>
             <div className={style.imgContainer}>
-                <img src={profileImg} className={style.profileImg}></img>
+                <img src={profileImg} className={style.profileImg} alt='profileImg'></img>
             </div>
         </div>
     )

@@ -109,7 +109,7 @@ const Contact = () => {
             <ToastContainer />
             <h3>CONTACTO</h3>
             <form ref={contactForm} className={style.formContact}>
-                <h4>Enviame un mensaje</h4>
+                <h4>Envíame un mensaje</h4>
                 <div className={style.formInputs}>
                     <div className={style.inputContainer}>
                         <input
@@ -127,7 +127,7 @@ const Contact = () => {
                             name='email'
                             value={messageData.email}
                             onChange={handleInputChange}></input>
-                        {messageData.errors.email && <p className={style.errorMessage}>Ingrese un correo valido</p>}
+                        {messageData.errors.email && <p className={style.errorMessage}>Ingrese un correo válido</p>}
                     </div>
                     <div className={style.inputContainer}>
                         <textarea
