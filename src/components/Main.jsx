@@ -9,7 +9,7 @@ const Main = () => {
                 <h3 className={style.secundaryText}>Analista Programador</h3>
                 <h3 className={style.secundaryText}>Front End Developer</h3>
                 <div className={style.btnContainer}>
-                    <a href='https://drive.google.com/file/d/1EwuryfBUCisn3V7vOs_tDwxkHxVgpwnc/view?usp=sharing' target='_blank'>Ver CV</a>
+                    <a href='https://drive.google.com/file/d/10FZoi1LUnifH4kRkhqbdQjTYbKiWkbuC/view?usp=sharing' target='_blank'>Ver CV</a>
                     <a href='https://www.linkedin.com/in/jorge-n-mendez/' target='_blank'>Linkedin</a>
                 </div>
             </div>
