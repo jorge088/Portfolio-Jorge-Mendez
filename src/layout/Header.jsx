@@ -24,6 +24,8 @@ const Header = () => {
     return (
         <header className={style.header}>
             <nav className={style.nav}>
+                <Link to='main' spy={true} smooth={true} offset={-100} duration={500} className={style.navLogo}>{'<Jorge/>'}</Link>
+
                 <button
                     className={`${style.btnNavMenu} ${showNavMenu && style.active}`}
                     onClick={showNavMenu ? handleHideNavMenu : handleShowNavMenu}>
