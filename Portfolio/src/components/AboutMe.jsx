@@ -6,7 +6,7 @@ import tecnologiesData from '../consts/tecnologiesData';
 const AboutMe = () => {
 
     let tecnologiesItems = tecnologiesData.map(item => (
-        <div className={style.tecnoItem}>
+        <div className={style.tecnoItem} key={item.name}>
             <div className={style.tecnoImgContainer}>
                 <img src={item.icon} className={style.tecnoImg} alt={item.name + ' icon'}></img>
             </div>

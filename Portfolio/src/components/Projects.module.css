@@ -118,7 +118,7 @@
     .container {
         width: 90%;
         font-size: .9rem;
-        
+
     }
 
     .projectsContainer {
@@ -134,7 +134,8 @@
         height: 170px;
     }
 }
-@media only screen  and (min-width:450px) and (max-width:575px) {
+
+@media only screen and (min-width:450px) and (max-width:575px) {
     .container {
         width: 90%;
         font-size: .9rem;
@@ -171,11 +172,12 @@
         width: 85%;
     }
 
-    .projectsContainer {
-    }
+    .projectsContainer {}
+
     .projectItem {
         width: 390px;
     }
+
     .projectImgContainer {
         height: 215px;
     }

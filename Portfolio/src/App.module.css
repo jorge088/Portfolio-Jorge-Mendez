@@ -1,5 +1,6 @@
 .main {
-    min-height: calc(100vh );
+    margin-top: 65px;
+    min-height: calc(100vh - 65px);
     width: 100%;
     background: #f7f7f7;
     display: flex;
@@ -7,15 +8,12 @@
     align-items: center;
 }
 
-.divisorContainer {
-    height: 162px;
-    width: 100%;
-    background: rgb(223, 185, 116);
-}
+
 
 .aboutMe {
     width: 100%;
     padding: 3em 0;
+    padding-bottom: 4.5em;
     background: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -40,16 +38,52 @@
     min-height: 800px;
     padding-bottom: 4em;
     background: #f7f7f7;
-    /* background: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.divisorContainer {
+    background: #f7f7f7;
+    position: relative;
+    height: auto;
+    filter: drop-shadow(0px 2px 5px #afafaf);
+}
+
+.divisorBlockTop {
+    width: 100%;
+    height: 55px;
+    background: #f78d23;
+}
+
+.divisorBlockBottom {
+    width: 100%;
+    height: 45px;
+    background: #f78d23;
+
+}
+
+.topSVG {
+    background: transparent;
+    border: none;
+    position: absolute;
+    height: 111.2px;
+    bottom: -95px;
+}
+
+.bottomSVG {
+    background: transparent;
+    border: none;
+    position: absolute;
+    height: 111px;
+    top: -96px;
+}
+
 @media only screen and (max-width:575px) {
     .aboutMe {
         gap: .8em;
+        padding-bottom: 6em;
     }
 
     .contact {
@@ -57,11 +91,13 @@
         padding: 1.2em 0;
         padding-bottom: 3em;
     }
+
 }
 
 @media only screen and (min-width:576px) and (max-width:800px) {
     .aboutMe {
         gap: 1em;
+        padding-bottom: 5em;
     }
 
     .contact {
@@ -76,6 +112,7 @@
     .aboutMe {
         gap: 2em;
     }
+
     .contact {
         min-height: 600px;
     }
