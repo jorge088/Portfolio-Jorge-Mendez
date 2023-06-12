@@ -101,6 +101,7 @@
     color: #374151;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 @media only screen and (max-width:575px) {
@@ -125,7 +126,16 @@
     .tecnologiesContainer {
         font-size: .9rem;
         width: 90%;
+    }
 
+    .tecnoItem {
+        width: 70px;
+        height: auto;
+    }
+
+    .tecnoImgContainer {
+        width: 70px;
+        height: 70px;
     }
 }
 
