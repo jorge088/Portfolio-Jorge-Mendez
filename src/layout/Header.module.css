@@ -1,0 +1,169 @@
+.header {
+    height: 65px;
+    width: 100%;
+    top: 0;
+    background: #f78d23;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    z-index: 50;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navMenu {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+}
+
+.navItem.active {
+    background: #f3a658;
+
+}
+
+.navItem a {
+    display: block;
+    width: 110px;
+    padding: 11px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.navItem a:hover {
+    background: #f3a658;
+}
+
+.navLogo{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    padding: .3em .4em;
+}
+
+.btnNavMenu {
+    background: none;
+    border: none;
+    font-size: 2em;
+    padding: 1px 8px;
+    cursor: pointer;
+    color: #FFF;
+    display: none;
+}
+
+.btnNavMenu.active {
+    border: 1px solid #FFF;
+}
+
+.navMenuResponsive {
+    width: 100%;
+    padding-bottom: .5em;
+    top: 60px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 6px;
+    list-style: none;
+    background: #f78d23;
+    display: none;
+    animation-duration: .25s;
+}
+
+.navItemResponsive a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: #FFF;
+    border-radius: 4px;
+
+}
+
+.navItemResponsive:hover {
+    background: #f3a658;
+}
+
+.showNavMenuResponsive {
+    display: block;
+}
+
+.showAnimation {
+    animation-name: appear;
+}
+
+.hideAnimation {
+    animation-name: disappear;
+}
+
+/* ANIMATIONS  */
+@keyframes appear {
+    0% {
+        right: -100%;
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+
+    100% {
+        right: -100%;
+        opacity: .3;
+    }
+}
+
+
+@media only screen and (max-width:575px) {
+    .header {
+        height: 60px;
+        font-size: .9rem;
+    }
+
+    .nav {
+        justify-content: space-between;
+        width: auto;
+        padding: 0 1.5em;
+        overflow: hidden;
+    }
+.navLogo{
+    display: block;
+}
+
+    .navMenu {
+        display: none;
+    }
+
+    .btnNavMenu {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .header {
+        font-size: .9rem;
+    }
+}
