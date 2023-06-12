@@ -34,7 +34,6 @@
 
 .formInputs {
     width: 650px;
-    height: 400px;
     display: flex;
     flex-direction: column;
     gap: 2.1em;

@@ -12,17 +12,17 @@ function App() {
   return (
     <>
       <Header />
-      <main className={style.main}>
+      <main id='main' className={style.main}>
         <Main />
       </main>
       <div className={style.divisorContainer}></div>
-      <section id='AboutMe' className={style.aboutMe}>
+      <section id='aboutMe' className={style.aboutMe}>
         <AboutMe />
       </section>
-      <section className={style.projects}>
+      <section id='projects' className={style.projects}>
         <Projects />
       </section>
-      <section id='Contact' className={style.contact}>
+      <section id='contact' className={style.contact}>
         <Contact />
       </section>
       <Footer />
